@@ -15,7 +15,7 @@ The resulting graphs and prior analysis verify that the algorithms have a time c
 # Data & Results
 
 ![](https://lh5.googleusercontent.com/F5_X10QaJeHdSDLigE_xX9OaxF0tRU3l_kx-u7qBAD3k24oQNZkbDrr5rGfDhwk9OyHyCHHSNuJguKNxTRBhYKRfDSI4lmYt1X-QY6xPDR8jmZEJvnqbFvOOKDCwLp_FhlSOZVjkoPdQsIlDlA3U7SY)
-_Figure 1: Hash map algorithm tested against 100,000 to 1,000,000 character inputs_
+>_Figure 1: Hash map algorithm tested against 100,000 to 1,000,000 character inputs_
 
 ![](https://lh5.googleusercontent.com/F5_X10QaJeHdSDLigE_xX9OaxF0tRU3l_kx-u7qBAD3k24oQNZkbDrr5rGfDhwk9OyHyCHHSNuJguKNxTRBhYKRfDSI4lmYt1X-QY6xPDR8jmZEJvnqbFvOOKDCwLp_FhlSOZVjkoPdQsIlDlA3U7SY)
-_Figure 2: Trie tree algorithm tested against 100,000 to 1,000,000 character inputs_
+>_Figure 2: Trie tree algorithm tested against 100,000 to 1,000,000 character inputs_
