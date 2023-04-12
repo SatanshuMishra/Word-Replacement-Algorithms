@@ -5,7 +5,6 @@ class TrieNode:
 
 class Trie:
     def __init__(self):
-        self.markers = {' ', ',', '?', '!'}
         self.root = TrieNode()
     
     def insert(self, abbreviation: str, full: str):
