@@ -1,8 +1,8 @@
 def analyze(abbreviations, punctuations, tweet):
     arr = []
-    words = tweet.split() # n
+    words = tweet.split()
     for word in words:
-        loweredWord = word.lower() # n
+        loweredWord = word.lower()
         start = 0
         end = len(word) - 1
         while word[start] in punctuations and start < end:
@@ -16,7 +16,7 @@ def analyze(abbreviations, punctuations, tweet):
             arr.append("".join([word[0:start], correspondingValue, word[end:len(word)]])) # 2n
         else:
             arr.append(word)
-    return " ".join(arr) # n
+    return " ".join(arr)
 
 # Sample Abbreviations, Punctuations, and Inputs
 abbreviations = {
