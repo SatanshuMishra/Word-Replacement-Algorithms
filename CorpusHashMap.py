@@ -13,7 +13,7 @@ def analyze(abbreviations, punctuations, tweet):
         strippedWord = loweredWord[start:end]
         correspondingValue = abbreviations.get(strippedWord)
         if correspondingValue != None:
-            arr.append("".join([word[0:start], correspondingValue, word[end:len(word)]])) # 2n
+            arr.append("".join([word[0:start], correspondingValue, word[end:len(word)]]))
         else:
             arr.append(word)
     return " ".join(arr)
