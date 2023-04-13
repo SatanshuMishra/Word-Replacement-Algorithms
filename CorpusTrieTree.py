@@ -51,6 +51,10 @@ def analyze(trie, punctuations, text):
             arr.append(word)
     return " ".join(arr)
 
+# O(5n - 4a - b + c(n - a + b) - c)
+# a = number of spaces
+# b = number of edge punctuations
+# c = ratio of abbreviated and non-abbreviated words
 
 # Sample Abbreviations, Punctuations, and Inputs
 abbreviations = {
