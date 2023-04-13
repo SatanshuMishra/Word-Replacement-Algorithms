@@ -47,6 +47,7 @@ outputs = [
   "Excited to dive into a new online course on GPT-3 and its implications for language processing #GPT3 #LanguageTech"
 ]
 
+# Run test cases
 for i in range(len(inputs)):
     assert analyze(abbreviations, punctuations, inputs[i]) == outputs[i], f"Test {i}: Failed"
 

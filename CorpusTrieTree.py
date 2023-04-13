@@ -82,5 +82,6 @@ outputs = [
 
 trie = buildTrie(abbreviations)
 
+# Run test cases
 for i in range(len(inputs)):
     assert analyze(trie, punctuations, inputs[i]) == outputs[i], f"Test {i}: Failed"
