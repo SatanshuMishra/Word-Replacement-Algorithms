@@ -9,6 +9,7 @@ class Trie:
     
     def insert(self, abbreviation: str, full: str):
         curr = self.root
+        abbreviation = abbreviation.lower()
         for char in abbreviation:
             if char not in curr.children:
                 curr.children[char] = TrieNode()
